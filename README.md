@@ -2,7 +2,7 @@
 
 WazuhAuto is an automated Python project that automates Wazuh deployment.
 
-This Python script automates the deployment of the Wazuh XDR and SIEM agent to Linux machines by leveraging saved PuTTY profiles in Windows. The script connects to the Linux hosts via SSH, detects the operating system and version, configures the appropriate repository, and installs the Wazuh agent.
+WazuhAuto automates the deployment of the Wazuh XDR and SIEM agent to Linux machines by leveraging saved PuTTY profiles in Windows. The script connects to the Linux hosts via SSH, detects the operating system and version, configures the appropriate repository, and installs the Wazuh agent.
 
 ## Features
 
