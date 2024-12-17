@@ -22,9 +22,21 @@ This Python script automates the deployment of the Wazuh XDR and SIEM agent to L
 
 Install the required libraries using the provided `requirements.txt` file.
 
+## Supported Operating Systems for Wazuh Deployment
+
+The script supports the following Linux distributions:
+
+- Debian-based systems (e.g., Ubuntu, Debian)
+- Red Hat-based systems (e.g., CentOS, RHEL, Fedora)
+
 ## Installation
 
 1. Clone or download this repository.
 2. Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
+
+## Usage
+
+
+   
