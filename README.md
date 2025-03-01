@@ -32,6 +32,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. **Prepare the SSH Hosts file**
+
 Create a text file (e.g., hosts.txt) with the format:
 ```
 server1.example.com,username,/path/to/private-key.pem
@@ -43,6 +44,7 @@ Each line contains:
 - SSH Username (User should have sudo privileges)
 - Path to the private key
 2. **Run the Script**
+
 Execute the script using:
 ```
 python deploy_wazuh.py --file hosts.txt --wazuh-server-ip <WAZUH_SERVER_IP> --wazuh-version <WAZUH_VERSION>
