@@ -19,9 +19,10 @@ This project automates the deployment of the Wazuh agent on Linux servers using 
 
 ## Installation
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-repo/wazuh-deployment.git
-   cd wazuh-deployment
+```
+git clone https://github.com/your-repo/wazuh-deployment.git
+cd wazuh-deployment
+```
 
 2. **Install the Dependencies:**
 ```
