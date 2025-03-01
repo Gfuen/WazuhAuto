@@ -47,11 +47,11 @@ Each line contains:
 
 Execute the script using:
 ```
-python deploy_wazuh.py --file hosts.txt --wazuh-server-ip <WAZUH_SERVER_IP> --wazuh-version <WAZUH_VERSION>
+python waz.py --file hosts.txt --wazuh-server-ip <WAZUH_SERVER_IP> --wazuh-version <WAZUH_VERSION>
 ```
 Example:
 ```
-python deploy_wazuh.py --file hosts.txt --wazuh-server-ip 192.168.1.100 --wazuh-version 4.4.0
+python waz.py --file hosts.txt --wazuh-server-ip 192.168.1.100 --wazuh-version 4.4.0
 ```
 
 ## Supported Operating Systems
