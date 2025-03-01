@@ -1,7 +1,7 @@
-# Automated Wazuh Agent Deployment
+# WazuhAuto Project
 
 ## Overview
-This project automates the deployment of the Wazuh agent on Linux servers using SSH. The script takes a list of servers, connects to each via SSH, detects the operating system, and installs the appropriate version of the Wazuh agent.
+This project automates the deployment of the Wazuh agent on Linux servers using SSH PEM private keys. The script takes a list of servers, connects to each via SSH, detects the operating system, and installs the appropriate version of the Wazuh agent.
 
 ## Features
 - Automated Wazuh agent installation on Linux servers
@@ -24,8 +24,9 @@ This project automates the deployment of the Wazuh agent on Linux servers using 
    cd wazuh-deployment
 
 2. **Install the Dependencies:**
+```
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
